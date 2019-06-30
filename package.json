@@ -1,0 +1,31 @@
+{
+  "name": "npm-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to use when building NPM modules with TypeScript.",
+  "main": "dist/Dummy.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarecoil/npm-ts-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "rarecoil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rarecoil/npm-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/rarecoil/npm-ts-boilerplate#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.21",
+    "jest": "^24.1.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {}
+}
